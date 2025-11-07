@@ -1,0 +1,18 @@
+{
+  "name": "gestion-archivo",
+  "version": "1.0.0",
+  "description": "Aplicación Express avanzada para manejar la carga, validación y gestión de archivos con transformación de imágenes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["express", "file-upload", "image-processing", "sharp", "multer"],
+  "author": "Magdalena Inalaf",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "sharp": "^0.34.5"
+  }
+}
